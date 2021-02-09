@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  min-height:100vh;
+}
+
+body{background-color: #ffb703;}
+
+h1{
+  margin-top: 50px;
+  text-align: center;
+  font-family: 'Stalinist One', cursive;
+  font-size: 50px;
+  color: #023047;
+  margin-bottom: 50px;
+}
+
+h2{
+  font-family: 'Inconsolata', monospace;
+}
+
+.one, .two{
+  font-size: 40px;
+}
+
+.final{
+  font-size: 50px;
+}
+
+.container{
+  height:50%;
+  width:60%;
+  padding: 80px;
+  border: 10px solid #fb8500;
+  border-radius: 10px;
+  background-image: url("images/sfondo.jpg");
+  text-align: center;
+  margin: 20px auto;
+}
+
+.choice1{
+  margin-right: 100px;
+}
+
+.choice1, .choice2{
+  display: inline-block;
+  font-size: 10px;
+}
+
+.choices{
+  width:90px;
+  height:60px;
+  background-color: #f2cc8f;
+  border-radius: 10px;
+  border: 3px solid #e85d04;
+}
+
+.choices:hover{
+  background-color: #e76f51;
+}
+
+.choices:active{
+  background-color: #ffb703;
+}
+
+#sasso{
+  background-image: url(images/sasso.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#carta{
+  background-image: url(images/carta.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#forbici{
+  background-image: url(images/forbici.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
